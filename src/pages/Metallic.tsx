@@ -21,7 +21,7 @@ const Metallic = () => {
         <div className="space-y-2 text-sm">
           <div className="w-full flex justify-center mb-3">
             <img 
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Metallic_bond_lattice.svg/220px-Metallic_bond_lattice.svg.png" 
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Raspolojenie_ionov.jpg/330px-Raspolojenie_ionov.jpg"
               alt="Металдық байланыс моделі" 
               className="w-32 h-auto" 
             />
@@ -46,12 +46,12 @@ const Metallic = () => {
 
       <TableOfContents items={tocItems} />
 
-      <WikiImage 
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Electron_sea_model.svg/300px-Electron_sea_model.svg.png"
-        alt="Электрон теңізі моделі"
-        caption="Металдық байланыстың электрон теңізі моделі"
-        width="280px"
-      />
+      {/*<WikiImage */}
+      {/*  src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Electron_sea_model.svg/300px-Electron_sea_model.svg.png"*/}
+      {/*  alt="Электрон теңізі моделі"*/}
+      {/*  caption="Металдық байланыстың электрон теңізі моделі"*/}
+      {/*  width="280px"*/}
+      {/*/>*/}
       
       <h2 id="definition" className="wiki-subtitle">Анықтамасы</h2>
       <p className="wiki-paragraph">
@@ -75,7 +75,7 @@ const Metallic = () => {
       </ul>
       
       <WikiImage 
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Close-packed_spheres.svg/220px-Close-packed_spheres.svg.png"
+        src="https://upload.wikimedia.org/wikipedia/kk/thumb/4/44/Him_08.png/400px-Him_08.png"
         alt="Металл кристалдық торы"
         caption="Металдардың тығыз орналасқан кристалдық торы"
         width="220px"

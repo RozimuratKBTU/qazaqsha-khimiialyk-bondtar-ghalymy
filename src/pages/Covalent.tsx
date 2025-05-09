@@ -22,7 +22,7 @@ const Covalent = () => {
         <div className="space-y-2 text-sm">
           <div className="w-full flex justify-center mb-3">
             <img 
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Covalent_bond_hydrogen.svg/220px-Covalent_bond_hydrogen.svg.png" 
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLkFYHznBMoQAvsCQWQ8xM3ntVR_PsCYE92Q&s"
               alt="Сутегі молекуласындағы ковалентті байланыс" 
               className="w-32 h-auto" 
             />
@@ -48,7 +48,7 @@ const Covalent = () => {
       <TableOfContents items={tocItems} />
 
       <WikiImage 
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Methane_Lewis.svg/220px-Methane_Lewis.svg.png"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSwJSq6j3M9TI3BlTOZBn1z-EclCiCm2LvDDj_74XjdwW_Gv6dftdci2xPK_rBOqGALGQ&usqp=CAU"
         alt="Метан молекуласындағы ковалентті байланыстар"
         caption="Метан (CH₄) молекуласындағы ковалентті байланыстар"
         width="250px"
@@ -74,7 +74,7 @@ const Covalent = () => {
       </p>
       
       <WikiImage 
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Nonpolar-bond-formation-2D.png/300px-Nonpolar-bond-formation-2D.png"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr6CEFiggxEre4it1WMuojY6jYV4BegDuhQA&s"
         alt="Полярлы емес ковалентті байланыс"
         caption="Полярлы емес ковалентті байланыстың қалыптасуы"
         width="250px"

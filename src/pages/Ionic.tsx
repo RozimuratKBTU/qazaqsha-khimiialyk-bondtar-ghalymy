@@ -21,7 +21,7 @@ const Ionic = () => {
         <div className="space-y-2 text-sm">
           <div className="w-full flex justify-center mb-3">
             <img 
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Ionic_Bonding.svg/220px-Ionic_Bonding.svg.png" 
+              src="https://thumbs.dreamstime.com/b/%D0%B0%D1%82%D0%BE%D0%BC-%D0%B8%D0%BE%D0%BD%D0%B0-%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD-%D0%BF%D0%BB%D0%B0%D0%BA%D0%B0%D1%82%D0%B0-%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%B0-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BC%D0%BE%D0%BB%D0%B5%D0%BA%D1%83%D0%BB%D1%8B-%D0%BF%D0%BE%D0%BB%D0%BE%D0%B6%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-144614196.jpg"
               alt="Иондық байланыс схемасы" 
               className="w-32 h-auto" 
             />
@@ -47,7 +47,7 @@ const Ionic = () => {
       <TableOfContents items={tocItems} />
 
       <WikiImage 
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Ionic_bonding.svg/300px-Ionic_bonding.svg.png"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUZ2r457jfrrdlGhv6E-OiAZQCLeAmhQS8Gw&s"
         alt="Натрий мен хлор арасындағы иондық байланыс"
         caption="Натрий мен хлор арасындағы иондық байланыстың қалыптасуы"
         width="300px"
@@ -133,7 +133,7 @@ const Ionic = () => {
       </table>
 
       <WikiImage 
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/NaCl_polyhedra.png/220px-NaCl_polyhedra.png"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Sodium-chloride-3D-vdW.png/330px-Sodium-chloride-3D-vdW.png"
         alt="Натрий хлориді кристалдық құрылымы"
         caption="Натрий хлориді (NaCl) кристаллының құрылымы"
         width="220px"

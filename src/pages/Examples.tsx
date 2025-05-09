@@ -22,11 +22,11 @@ const Examples = () => {
       <WikiInfoBox title="Химиялық байланыстар мысалдары">
         <div className="space-y-2 text-sm">
           <div className="w-full flex justify-center mb-3">
-            <img 
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Table_salt_grains.jpg/220px-Table_salt_grains.jpg" 
-              alt="Ас тұзы кристалдары" 
-              className="w-32 h-auto" 
-            />
+            {/*<img */}
+            {/*  s0rc="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Table_salt_grains.jpg/220px-Table_salt_grains.jpg" */}
+            {/*  alt="Ас тұзы кристалдары" */}
+            {/*  className="w-32 h-auto" */}
+            {/*/>*/}
           </div>
           <p className="text-center text-xs mb-2">Натрий хлориді (ас тұзы) — иондық байланыс мысалы</p>
           <div>
@@ -62,7 +62,7 @@ const Examples = () => {
         <div className="border border-gray-200 rounded-sm p-4">
           <h3 className="font-semibold mb-2">Су (H₂O)</h3>
           <WikiImage 
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Water_droplet_blue_bg05.jpg/220px-Water_droplet_blue_bg05.jpg"
+            src="https://media.istockphoto.com/id/1040444750/tr/vekt%C3%B6r/h2o-su-molek%C3%BCl%C3%BC-modeli-ve-kimyasal-form%C3%BCl%C3%BC.jpg?s=612x612&w=is&k=20&c=bJyDmwyq-L--UY5m-VEFkt9GSk5xgyaSXb60uelyTXo="
             alt="Су тамшысы"
             caption="Су — ковалентті және сутектік байланыстардың мысалы"
             width="100%"
@@ -76,7 +76,7 @@ const Examples = () => {
         <div className="border border-gray-200 rounded-sm p-4">
           <h3 className="font-semibold mb-2">Алюминий фольга</h3>
           <WikiImage 
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Aluminium-foil.jpg/220px-Aluminium-foil.jpg"
+            src="https://kzmc.kz/media/uploads/images/load/folga-alyuminievaya_2.jpg"
             alt="Алюминий фольга"
             caption="Алюминий — металдық байланыстың мысалы"
             width="100%"
@@ -88,7 +88,7 @@ const Examples = () => {
         <div className="border border-gray-200 rounded-sm p-4">
           <h3 className="font-semibold mb-2">Метан (CH₄)</h3>
           <WikiImage 
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Methane-3D-space-filling.svg/220px-Methane-3D-space-filling.svg.png"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaumaQG2oG5vfMBg_mPJKlKsuUplt5Y5GvXw&s"
             alt="Метан молекуласы"
             caption="Метан — полярлы емес ковалентті байланыс мысалы"
             width="100%"
@@ -148,12 +148,12 @@ const Examples = () => {
         </table>
       </div>
       
-      <WikiImage 
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Ammonia-3D-balls.png/220px-Ammonia-3D-balls.png"
-        alt="Аммиак молекуласы"
-        caption="Аммиак (NH₃) молекуласындағы ковалентті байланыстар"
-        width="220px"
-      />
+      {/*<WikiImage */}
+      {/*  src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Ammonia-3D-balls.png/220px-Ammonia-3D-balls.png"*/}
+      {/*  alt="Аммиак молекуласы"*/}
+      {/*  caption="Аммиак (NH₃) молекуласындағы ковалентті байланыстар"*/}
+      {/*  width="220px"*/}
+      {/*/>*/}
       
       <h2 id="ionic" className="wiki-subtitle">Иондық байланыс мысалдары</h2>
       <p className="wiki-paragraph">
@@ -205,13 +205,13 @@ const Examples = () => {
         </table>
       </div>
       
-      <WikiImage 
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Halit-Kristalle.jpg/220px-Halit-Kristalle.jpg"
-        alt="Натрий хлориді кристалдары"
-        caption="Натрий хлориді (NaCl) кристалдарындағы иондық байланыстар"
-        width="220px"
-        float="left"
-      />
+      {/*<WikiImage */}
+      {/*  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Halit-Kristalle.jpg/220px-Halit-Kristalle.jpg"*/}
+      {/*  alt="Натрий хлориді кристалдары"*/}
+      {/*  caption="Натрий хлориді (NaCl) кристалдарындағы иондық байланыстар"*/}
+      {/*  width="220px"*/}
+      {/*  float="left"*/}
+      {/*/>*/}
       
       <h2 id="metallic" className="wiki-subtitle">Металдық байланыс мысалдары</h2>
       <p className="wiki-paragraph">
@@ -271,25 +271,25 @@ const Examples = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         <div className="border border-gray-200 rounded-sm p-4">
           <h3 className="font-semibold mb-2">ДНҚ құрылымы</h3>
-          <WikiImage 
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/DNA_Structure%2BKey%2BLabelled.pn_NoBB.png/220px-DNA_Structure%2BKey%2BLabelled.pn_NoBB.png"
-            alt="ДНҚ құрылымы"
-            caption="ДНҚ-дағы нуклеотидтер арасындағы сутектік байланыстар"
-            width="100%"
-            float="none"
-          />
+          {/*<WikiImage */}
+          {/*  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/DNA_Structure%2BKey%2BLabelled.pn_NoBB.png/220px-DNA_Structure%2BKey%2BLabelled.pn_NoBB.png"*/}
+          {/*  alt="ДНҚ құрылымы"*/}
+          {/*  caption="ДНҚ-дағы нуклеотидтер арасындағы сутектік байланыстар"*/}
+          {/*  width="100%"*/}
+          {/*  float="none"*/}
+          {/*/>*/}
           <p className="mt-2">ДНҚ қос спиралі азотты негіздер арасындағы сутектік байланыстар арқылы тұрақтандырылады.</p>
         </div>
         
         <div className="border border-gray-200 rounded-sm p-4">
           <h3 className="font-semibold mb-2">Ақуыз құрылымы</h3>
-          <WikiImage 
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Protein-secondary-structure.png/220px-Protein-secondary-structure.png"
-            alt="Ақуыз екінші құрылымы"
-            caption="Ақуыздағы сутектік байланыстар"
-            width="100%"
-            float="none"
-          />
+          {/*<WikiImage */}
+          {/*  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Protein-secondary-structure.png/220px-Protein-secondary-structure.png"*/}
+          {/*  alt="Ақуыз екінші құрылымы"*/}
+          {/*  caption="Ақуыздағы сутектік байланыстар"*/}
+          {/*  width="100%"*/}
+          {/*  float="none"*/}
+          {/*/>*/}
           <p className="mt-2">Ақуыздардың спиральды және парақша құрылымдары сутектік байланыстар арқылы түзіледі.</p>
         </div>
       </div>
@@ -376,12 +376,12 @@ const Examples = () => {
         Химиялық байланыстарды зерттеу және қолдану арқылы ғалымдар жаңа материалдарды, дәрілік препараттарды және технологияларды жасайды. Байланыстардың түрі мен күшін өзгерту арқылы заттардың қасиеттерін мақсатты түрде өзгертуге болады.
       </p>
       
-      <WikiImage 
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Polymer_polyethylene.svg/330px-Polymer_polyethylene.svg.png"
-        alt="Полиэтилен құрылымы"
-        caption="Полиэтилен полимеріндегі ковалентті байланыстар"
-        width="330px"
-      />
+      {/*<WikiImage */}
+      {/*  src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Polymer_polyethylene.svg/330px-Polymer_polyethylene.svg.png"*/}
+      {/*  alt="Полиэтилен құрылымы"*/}
+      {/*  caption="Полиэтилен полимеріндегі ковалентті байланыстар"*/}
+      {/*  width="330px"*/}
+      {/*/>*/}
       
       <p className="wiki-paragraph">
         Заманауи технологиялар химиялық байланыстарды молекулярлық деңгейде басқаруға мүмкіндік береді, бұл медицина, электроника, энергетика және басқа да көптеген салаларда инновациялық шешімдерге жол ашады.

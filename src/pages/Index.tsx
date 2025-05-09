@@ -23,7 +23,7 @@ const Index = () => {
         <div className="space-y-2 text-sm">
           <div className="w-full flex justify-center mb-3">
             <img 
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Benzene_3D_ball.png/220px-Benzene_3D_ball.png" 
+              src="https://www.mozaweb.com/ru/mozaik3D/KEM/szerves/benzol/960.jpg"
               alt="Бензол молекуласының үш өлшемді моделі" 
               className="w-32 h-auto" 
             />
@@ -49,7 +49,7 @@ const Index = () => {
       <TableOfContents items={tocItems} />
 
       <WikiImage 
-        src="https://upload.wikimedia.org/wikipedia/commons/5/54/Ionic_bonding.svg"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Halit-Kristalle.jpg/330px-Halit-Kristalle.jpg"
         alt="Натрий және хлор арасындағы иондық байланыс"
         caption="Натрий мен хлор арасындағы иондық байланыстың қалыптасуы"
       />

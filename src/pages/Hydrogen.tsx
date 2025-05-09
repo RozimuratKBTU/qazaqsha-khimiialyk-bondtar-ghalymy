@@ -47,12 +47,12 @@ const Hydrogen = () => {
 
       <TableOfContents items={tocItems} />
 
-      <WikiImage 
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Hydrogen_Bonding_in_Water.svg/300px-Hydrogen_Bonding_in_Water.svg.png"
-        alt="Судағы сутектік байланыстар"
-        caption="Су молекулалары арасындағы сутектік байланыстар (пунктирмен көрсетілген)"
-        width="300px"
-      />
+      {/*<WikiImage */}
+      {/*  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Hydrogen_Bonding_in_Water.svg/300px-Hydrogen_Bonding_in_Water.svg.png"*/}
+      {/*  alt="Судағы сутектік байланыстар"*/}
+      {/*  caption="Су молекулалары арасындағы сутектік байланыстар (пунктирмен көрсетілген)"*/}
+      {/*  width="300px"*/}
+      {/*/>*/}
       
       <h2 id="definition" className="wiki-subtitle">Анықтамасы</h2>
       <p className="wiki-paragraph">
@@ -91,13 +91,13 @@ const Hydrogen = () => {
         <li>Динамикалық — сутектік байланыстар үнемі үзіліп, қайта құрылады</li>
       </ul>
       
-      <WikiImage 
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Water_molecule_3D.svg/220px-Water_molecule_3D.svg.png"
-        alt="Су молекуласы"
-        caption="Су молекуласының құрылымы"
-        width="220px"
-        float="left"
-      />
+      {/*<WikiImage */}
+      {/*  src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Water_molecule_3D.svg/220px-Water_molecule_3D.svg.png"*/}
+      {/*  alt="Су молекуласы"*/}
+      {/*  caption="Су молекуласының құрылымы"*/}
+      {/*  width="220px"*/}
+      {/*  float="left"*/}
+      {/*/>*/}
       
       <h2 id="water" className="wiki-subtitle">Судағы сутектік байланыстар</h2>
       <p className="wiki-paragraph">
