@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -35,19 +36,12 @@
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -98,4 +92,53 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Википедия стиль */
+.wiki-container {
+  @apply max-w-screen-xl mx-auto;
+}
+
+.wiki-article {
+  @apply bg-white p-6 border border-gray-200 rounded-sm;
+}
+
+.wiki-title {
+  @apply text-2xl font-bold border-b border-gray-300 pb-2 mb-4;
+}
+
+.wiki-subtitle {
+  @apply text-xl font-semibold mt-6 mb-3 border-b border-gray-200 pb-1;
+}
+
+.wiki-paragraph {
+  @apply mb-4 text-base leading-relaxed;
+}
+
+.wiki-sidebar {
+  @apply bg-wiki-lightgray border border-gray-300 p-4 rounded-sm mb-6;
+}
+
+.wiki-link {
+  @apply text-wiki-blue hover:underline;
+}
+
+.wiki-img-caption {
+  @apply text-sm text-center text-gray-600 mt-1;
+}
+
+.wiki-list {
+  @apply list-disc pl-6 mb-4;
+}
+
+.wiki-table {
+  @apply w-full border-collapse mb-4;
+}
+
+.wiki-table th {
+  @apply bg-wiki-lightblue p-2 text-left border border-gray-300;
+}
+
+.wiki-table td {
+  @apply p-2 border border-gray-300;
 }
