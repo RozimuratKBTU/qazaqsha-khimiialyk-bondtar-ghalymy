@@ -104,7 +104,7 @@ const WikiLayout = ({ children }: WikiLayoutProps) => {
 
         {/* Main content */}
         <main className="flex-1">
-          <article className="wiki-article">
+          <article className="wiki-article prose max-w-none">
             {children}
           </article>
 
@@ -113,6 +113,61 @@ const WikiLayout = ({ children }: WikiLayoutProps) => {
           </footer>
         </main>
       </div>
+      
+      <style jsx global>{`
+        .bg-wiki-lightblue {
+          background-color: #eaecf0;
+        }
+        .wiki-container {
+          max-width: 1200px;
+          margin: 0 auto;
+        }
+        .wiki-title {
+          font-size: 2rem;
+          font-weight: bold;
+          border-bottom: 1px solid #a2a9b1;
+          padding-bottom: 0.25rem;
+          margin-bottom: 1rem;
+        }
+        .wiki-subtitle {
+          font-size: 1.5rem;
+          font-weight: bold;
+          border-bottom: 1px solid #a2a9b1;
+          padding-bottom: 0.25rem;
+          margin-top: 1.5rem;
+          margin-bottom: 1rem;
+        }
+        .wiki-paragraph {
+          margin-bottom: 1rem;
+          line-height: 1.6;
+        }
+        .wiki-list {
+          list-style-type: disc;
+          padding-left: 2rem;
+          margin-bottom: 1rem;
+        }
+        .wiki-table {
+          border-collapse: collapse;
+          width: 100%;
+          margin-bottom: 1rem;
+        }
+        .wiki-table th, .wiki-table td {
+          border: 1px solid #a2a9b1;
+          padding: 0.5rem;
+          text-align: left;
+        }
+        .wiki-table th {
+          background-color: #eaecf0;
+          font-weight: bold;
+        }
+        .wiki-table tr:nth-child(even) {
+          background-color: #f8f9fa;
+        }
+        .wiki-article img {
+          max-width: 100%;
+          height: auto;
+        }
+      `}</style>
     </div>
   );
 };

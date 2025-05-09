@@ -22,8 +22,17 @@ const WikiImage = ({
 
   return (
     <figure className={`${floatClass[float]} border border-gray-300 bg-white p-2 rounded-sm`} style={{maxWidth: width}}>
-      <img src={src} alt={alt} className="w-full h-auto" />
-      <figcaption className="wiki-img-caption mt-2 text-center">{caption}</figcaption>
+      <img 
+        src={src} 
+        alt={alt}
+        className="w-full h-auto" 
+        loading="lazy"
+        onError={(e) => {
+          e.currentTarget.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/220px-Placeholder_view_vector.svg.png";
+          e.currentTarget.onerror = null;
+        }}
+      />
+      <figcaption className="wiki-img-caption mt-2 text-center text-sm text-gray-600">{caption}</figcaption>
     </figure>
   );
 };
