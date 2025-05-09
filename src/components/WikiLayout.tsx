@@ -2,7 +2,7 @@
 import { ReactNode } from "react";
 import { Link } from "react-router-dom";
 import { Separator } from "@/components/ui/separator";
-import { Flask } from "lucide-react";
+import { BeakerIcon } from "lucide-react";
 
 interface WikiLayoutProps {
   children: ReactNode;
@@ -15,7 +15,7 @@ const WikiLayout = ({ children }: WikiLayoutProps) => {
       <header className="bg-wiki-lightblue border-b border-gray-300 py-2">
         <div className="wiki-container flex justify-between items-center px-4 md:px-6">
           <div className="flex items-center">
-            <Flask className="h-6 w-6 mr-2" />
+            <BeakerIcon className="h-6 w-6 mr-2" />
             <h1 className="text-xl font-semibold">
               <Link to="/" className="hover:underline">
                 Химиялық Байланыстар
